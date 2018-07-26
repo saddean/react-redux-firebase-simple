@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ToDoApp</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- START MENU -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info mb-5">
+        <a class="navbar-brand" href="">Tuongan</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#colslap1" aria-controls="colslap1"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse justify-content-end" id="colslap1">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- END MENU -->
+
+    <div class="container">
+        <div class="row">
+            <!-- START LIST NOTE -->
+            <div class="col">
+
+                <!-- COMPONENT LIST NODE -->
+                <div id="listNote" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="note1">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#listNote" href="#noteContent1" aria-expanded="true" aria-controls="noteContent1">
+                          Ghi chú 4-5-2018
+                        </a>
+                            </h5>
+                        </div>
+                        <div id="noteContent1" class="collapse in" role="tabpanel" aria-labelledby="note1">
+                            <div class="card-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, obcaecati nobis. Facere officia alias dolores nulla similique in, nisi sint voluptate, sunt consectetur, necessitatibus voluptatibus optio ad quos sapiente aperiam?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END COMPONENT LIST NODE -->
+            </div>
+            <!-- END LIST NOTE-->
+
+            <!-- START EDIT -->
+            <div class="col-4">
+                <h3>EDIT NOTE</h3>
+                <div class="form-group">
+                  <label for="noteTitle">Tiêu đề note</label>
+                  <input type="text" class="form-control" name="noteTitle" id="noteTitle" aria-describedby="noteTitle" placeholder="Nhập tiêu đề note">
+                </div>
+                
+                <div class="form-group">
+                  <label for="noteTitle">Nội dung note</label>
+                  <textarea rows="5" type="text" class="form-control" name="noteContent" id="noteContent" aria-describedby="noteContent" placeholder="Nhập tiêu đề note"></textarea>
+                </div>
+
+                <button type="button" name="" id="" class="btn btn-info btn-lg btn-block">Đồng Ý</button>
+            
+
+            </div>
+            <!-- END EDIT -->
+        </div> <!-- endrow -->
+    </div> <!-- endcontainer -->
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
